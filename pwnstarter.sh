@@ -1,6 +1,5 @@
 #!/bin/sh
 # function realpath { echo $(cd $(dirname $1); pwd)/$(basename $1); }
-this_path='/home/debug/tools/pwn/pwnstarter'
 if [ $# -eq 0 ];
 then
     echo "please -h for help"
