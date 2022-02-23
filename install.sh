@@ -1,4 +1,5 @@
 #!/bin/sh
+chmod 777 ./pwnstarter.sh
 sed -e 2a\this_path=\'`pwd`\' -i pwnstarter.sh
 ln ./pwnstarter.sh /usr/bin/pwnstarter
 if [ -f "uninstall.sh" ]
