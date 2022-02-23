@@ -19,7 +19,7 @@ after installation,uninstall.sh will be created here.Run it if you'd like to rem
             
 ef: pwnstarter -i -b pwn -l libc-2.23.so -r 127.0.0.1:80 -c vim
 
-if you have any idea for more functions,please contract me
+if you have any idea for more functions,please contact me
 
 default template:
 ```python
