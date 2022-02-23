@@ -1,5 +1,4 @@
 #!/bin/sh
-# function realpath { echo $(cd $(dirname $1); pwd)/$(basename $1); }
 if [ $# -eq 0 ];
 then
     echo "please -h for help"
