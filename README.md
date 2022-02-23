@@ -9,6 +9,7 @@ run
 after installation,uninstall.sh will be created here.Run it if you'd like to remove pwnstarter
 
 **Usage**: 
+```shell
             -b choose the binary file
             -l choose the libc file
             -r get the ip and port,formated like 127.0.0.1:80
@@ -16,7 +17,7 @@ after installation,uninstall.sh will be created here.Run it if you'd like to rem
             -i mode of i386
             -a mode of amd64
             -h to read this
-            
+```            
 ef: pwnstarter -i -b pwn -l libc-2.23.so -r 127.0.0.1:80 -c vim
 
 if you have any idea for more functions,please contact me
