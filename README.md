@@ -47,4 +47,5 @@ sdla=lambda s,d:p.sendlineafter(s,d)
 ita=lambda :p.interactive()
 def debug(command=''):
     gdb.attach(p,command)
+    pause()
 ```
