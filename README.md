@@ -33,7 +33,7 @@ context.log_level='DEBUG'
 mode_type=0   #to choose the mode:0 for local, others for remoteness
 
 elf=ELF('{}'.format(bin_name))
-if mode_type=0:
+if mode_type==0:
     p=process('{}'.format(bin_name))
 else:
     ip=host.split(':')[0]
