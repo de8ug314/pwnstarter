@@ -16,6 +16,7 @@ else:
 cv=lambda x:p.recv(x)
 cvl=lambda :p.recvline()
 cvn=lambda x:p.recvuntil(x)
+sd=lambda x:p.send(x)
 sdl=lambda x:p.sendline(x)
 sdla=lambda s,d:p.sendlineafter(s,d)
 ita=lambda :p.interactive()
